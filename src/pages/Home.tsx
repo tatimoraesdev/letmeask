@@ -9,8 +9,6 @@ import { useAuth } from '../hooks/useAuth';
 
 import '../styles/auth.scss';
 
-//webpack (module bundler)
-
 export function Home () {
     const history = useHistory();
     const { user, signInWithGoogle } = useAuth()
